@@ -11,7 +11,7 @@ This avoids prop drilling and ensures cross-route synchronization.
 - `shadcn`, `tailwindcss`, `@tailwindcss/vite`, `class-variance-authority`, `clsx`, `tailwind-merge`, `lucide-react`, `sonner`
 
 ## Trade-offs / Shortcuts (24-hour constraint)
-- Use of AI for generation of given mock data types, mock live cases descriptions, and utility functions(`src\lib\utils.ts`).
+- Use of AI for generation of given mock data types(typescript), mock live cases descriptions, and utility functions(`src\lib\utils.ts`).
 - Capacity chart is a lightweight Tailwind-based stacked bar (no charting library).
 - Use of dropdown instead of radio/segmented control for priority selection in manual case inject modal. 
 
